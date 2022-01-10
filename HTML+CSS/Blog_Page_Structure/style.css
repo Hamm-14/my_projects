@@ -1,0 +1,296 @@
+/*percentage-scrolled*/
+#percentage-viewed{
+	position: fixed;
+    top: 1%;
+    left: 91%;
+    width: 108px;
+    height: 30px;
+    border: 2px solid #0d47a1;
+    border-radius: 40px;
+    box-shadow: 0px 0px 6px 2px #bdbdbd;
+    background-color: #eeeeee;
+    text-align: center;
+    visibility: hidden;
+}
+
+#percentage-viewed p{
+	line-height: 31px;
+    font-family: cursive;
+    /* font-weight: 100; */
+    color: #0d47a1;
+    margin: 0;
+}
+
+
+/*main-header*/
+
+#main-header{
+	margin-top: 60px;
+}
+
+#blog-title{
+	font-size: 40px;
+	color: darkslategrey;
+}
+
+#about-site{
+	color: grey;
+}
+
+#site-title a {
+	font-size: 1.8rem;
+    color: #1a1a1a;
+    font-weight: bold;
+    font-family: sans-serif;
+    text-decoration: none;
+    line-height: 1.25px;
+}
+
+#site-title a:hover{
+	color: orange;
+}
+
+#site-title{
+	margin-bottom: -10px;
+}
+
+#logo-click{
+	width: 210px;
+}
+
+#header-image-container{
+	margin-top: 50px;
+}
+
+/*............main..................*/
+
+main{
+	width: 77%;
+	display: inline-block;
+	/*border: 5px dotted red;
+	border-radius: 10px;*/
+}
+
+.h-style{
+	color: darkslategrey;
+	font-family: monospace;
+	font-size: 1.33rem;
+}
+
+h1.h-style {                        /*Chain-Selector*/
+	font-family: sans-serif;
+	color: darkslategrey;
+}
+
+img{
+	width: 100%;
+}
+
+ body{
+ 	margin-left: 60px;
+ 	margin-right: 20px;
+ }
+
+#blog-title{
+	text-transform: capitalize;
+	font-size: 3.2rem;
+	color: #13222c;
+}
+
+#blog-content{
+	display: inline-block;
+	font-size: 1.1rem;
+	word-spacing: 1px;
+	line-height: 1.4rem;
+	text-align: justify;
+	width: 80%;
+	margin-left: 15px;
+}
+
+.sources{
+	text-decoration: none;
+}
+
+.sources:hover{
+	color: black;
+}
+
+/*#author-container{
+	width: 70px;
+	height: 70px;
+}*/
+
+#author-container img{
+	width: 70px;
+	height: 70px;
+}
+
+#views img{
+	width: 40px;
+	height: 40px;
+}
+
+#author-container{
+	display: inline-block;
+	width: 10%;
+	vertical-align: top;
+	margin-top: 45px;
+}
+
+#content{
+	width: 95vw;
+}
+
+/*..............aside...................*/
+
+.widget{
+	border-top: 4px solid black;
+	margin-bottom: 40px;
+}
+
+.widget input{
+	display: block;
+	background-color: #f1f1f1;
+	padding: 5px;
+	/*font-size: 1.3rem;*/
+	margin-bottom: 10px;
+	width: 95%;
+	/*height: 20px;*/
+}
+
+.widget-title{
+	font-size: 27px;
+	font-weight: 700;
+	margin-top: 5px;
+}
+
+button[type="submit"]{
+	background-color: black;
+	color: white;
+	padding: 10px;
+}
+
+#search-button{
+	background-color: black;
+	width: 13%;
+	display: inline-block;
+	margin-top: 22px;
+	margin-left: -5px;
+	height: 39px;
+}
+
+
+#input-search{
+	display: inline-block;
+	width: 82%;
+	height: auto;
+	font-size: 1.1rem;
+}
+
+#subscribe-form{
+margin-top: -20px;
+}
+
+.widget ul{
+	margin-top: -20px;
+}
+
+.widget ul li{
+	line-height: 1.4rem;
+	font-size: 1.1rem;
+	/*word-spacing: 0.2rem;*/
+	letter-spacing: 0.5px;
+	margin-bottom: 5px;
+	text-align: justify;
+}
+
+.widget ul li a{
+	text-decoration: none;
+	color: orangered;
+}
+
+.widget a:hover{
+	color: black;
+}
+
+aside{
+	display: inline-block;
+	width: 20%;
+	vertical-align: top;
+	margin-top: 3%;
+}
+
+aside section{
+	width: 100%;
+}
+
+.widget form{
+	width: 100%;
+}
+
+
+
+/*...............social-section..................*/
+
+.social-btn img{
+	background-color: black;
+	margin-top: -4px;
+	padding: 10px;
+}
+
+#social{
+	width: 25px;
+	position: fixed;
+	top: 68px;
+	left: 0px;
+	box-sizing: border-box;
+}
+
+#facebook img{
+	background-color: #3b5998;
+}
+
+#linkedin img{
+	background-color: #0077b5;
+}
+
+#twitter img{
+	background-color: #83c3f3 ;
+}
+
+#gmail img{
+	background-color: #dd4b39;
+}
+
+#whatsapp img{
+	background-color: #6ba92f;
+}
+
+#mail img{
+	background-color: #ed4926;
+}
+
+#facebook:hover img{
+	background-color: #2d4373;
+}
+
+#linkedin:hover img{
+	background-color: #00121c;
+}
+
+#twitter:hover img{
+	background-color: #55acee ;
+}
+
+#gmail:hover img{
+	background-color: #c23321;
+}
+
+#whatsapp:hover img{
+	background-color: #528124;
+}
+
+#mail:hover img{
+	background-color: #cf3311;
+}
+
